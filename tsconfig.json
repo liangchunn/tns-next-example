@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "build",
     "module": "commonjs",
     "target": "es6",
-    "allowJs": true,
+    "allowJs": false,
     "moduleResolution": "node",
     "rootDir": "src",
     "strict": true,
@@ -12,9 +11,6 @@
     "noUnusedLocals": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "paths": {
-        "~/*": ["src/*"]
-    }
   },
-  "exclude": ["node_modules", "build", "coverage", "dist", "setupTests.ts"]
+  "exclude": ["node_modules", "build", "coverage", "dist", "setupTests.ts", "ui"]
 }
